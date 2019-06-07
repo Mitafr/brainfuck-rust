@@ -7,7 +7,6 @@ fn main() {
     bf.execute("../samples/bench.bf");
 }
 
-
 struct BrainfuckState {
     mem: Vec<Wrapping<u8>>,
     pointer: usize,
