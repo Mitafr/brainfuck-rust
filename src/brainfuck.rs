@@ -13,7 +13,7 @@ enum Instruction {
     Output,
     JumpOpen(usize),
     JumpClose(usize),
-    Comment
+    Comment,
 }
 
 impl From<char> for Instruction {
